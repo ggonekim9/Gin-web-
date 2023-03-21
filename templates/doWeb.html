@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>goWeb</title>
+</head>
+<body>
+<div>
+    <h1>测试页面</h1>
+    {{.msg}}
+<!--    action 属性规定当提交表单时，向何处发送表单数据-->
+    <form action="/user/add" method="post">
+        <p>username:<input type="text" name="username"></p>
+        <p>password:<input type="text" name="password"></p>
+        <button type="submit"> submit </button>
+    </form>
+</div>
+
+</body>
+</html>
